@@ -1,0 +1,16 @@
+﻿[
+  {
+    "id": "hello-world",
+    "title": "博客搭建好了！",
+    "desc": "这是我的第一篇博客，记录一下搭建过程。支持代码高亮、图片展示、Markdown 渲染。",
+    "date": "2026-05-16",
+    "tags": ["杂谈", "Vue 3"]
+  },
+  {
+    "id": "dotnet-jwt",
+    "title": "ASP.NET Core JWT 认证笔记",
+    "desc": "记录 .NET API 中 JWT Token 的生成、验证、刷新等常用写法，方便以后复制。",
+    "date": "2026-05-15",
+    "tags": ["C#", ".NET", "JWT"]
+  }
+]
