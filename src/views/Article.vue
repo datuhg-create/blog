@@ -31,7 +31,7 @@ const raw = ref('')
 
 onMounted(async () => {
   // 获取文章列表找到元信息
-  const listResp = await fetch('/articles/index.json')
+  const listResp = await fetch(import.meta.env.BASE_URL + 'articles/index.json')
   if (listResp.ok) {
     const list = await listResp.json()
     article.value = list.find(a => a.id === route.params.id)
@@ -39,7 +39,7 @@ onMounted(async () => {
   if (!article.value) return
 
   // 加载 .md 文件
-  const mdResp = await fetch(`/articles/${article.value.id}.md`)
+  const mdResp = await fetch(import.meta.env.BASE_URL + `articles/${article.value.id}.md`)
   if (mdResp.ok) raw.value = await mdResp.text()
 })
 
@@ -137,3 +137,4 @@ const rendered = computed(() => marked(raw.value))
   text-decoration: underline;
 }
 </style>
+

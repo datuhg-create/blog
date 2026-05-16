@@ -1,7 +1,7 @@
 ﻿<template>
   <div class="home">
     <header class="site-header">
-      <h1 class="site-title">📝 我的博客</h1>
+      <h1 class="site-title">📝 我的博客11</h1>
       <p class="site-desc">.NET 全栈 · Vue 3 · 日常记录</p>
     </header>
 
@@ -37,7 +37,7 @@ import { ref, onMounted } from 'vue'
 const articles = ref([])
 
 onMounted(async () => {
-  const resp = await fetch('/articles/index.json')
+  const resp = await fetch(import.meta.env.BASE_URL + 'articles/index.json')
   if (resp.ok) articles.value = await resp.json()
 })
 </script>
@@ -104,3 +104,4 @@ onMounted(async () => {
   color: #c0c4cc;
 }
 </style>
+
