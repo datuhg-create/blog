@@ -1,7 +1,7 @@
 ﻿<template>
   <div class="home">
     <header class="site-header">
-      <h1 class="site-title">📝 我的博客666777888</h1>
+      <h1 class="site-title">📝 我的博客</h1>
       <p class="site-desc">.NET 全栈 · Vue 3 · 日常记录</p>
     </header>
 
