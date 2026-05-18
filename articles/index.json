@@ -4,13 +4,71 @@
     "title": "博客搭建好了！",
     "desc": "这是我的第一篇博客，记录一下搭建过程。支持代码高亮、图片展示、Markdown 渲染。",
     "date": "2026-05-16",
-    "tags": ["杂谈", "Vue 3"]
+    "tags": ["Vue 3", "Vite"],
+    "category": "tech"
   },
   {
     "id": "dotnet-jwt",
     "title": "ASP.NET Core JWT 认证笔记",
     "desc": "记录 .NET API 中 JWT Token 的生成、验证、刷新等常用写法，方便以后复制。",
     "date": "2026-05-15",
-    "tags": ["C#", ".NET", "JWT"]
+    "tags": ["C#", ".NET", "JWT"],
+    "category": "tech"
+  },
+  {
+    "id": "vscode-config",
+    "title": "VS Code 配置分享",
+    "desc": "我的 VS Code 常用插件、快捷键和 settings.json 配置，效率提升必备。",
+    "date": "2026-05-17",
+    "tags": ["VS Code", "效率"],
+    "category": "tools"
+  },
+  {
+    "id": "git-commands",
+    "title": "Git 常用命令速查",
+    "desc": "日常开发中最常用的 Git 命令整理，包括分支操作、撤销、合并等。",
+    "date": "2026-05-17",
+    "tags": ["Git", "版本控制"],
+    "category": "tools"
+  },
+  {
+    "id": "docker-notes",
+    "title": "Docker 入门笔记",
+    "desc": "Docker 基础概念、常用命令、Dockerfile 和 Compose 入门示例。",
+    "date": "2026-05-17",
+    "tags": ["Docker", "DevOps"],
+    "category": "tools"
+  },
+  {
+    "id": "ai-llm-overview",
+    "title": "主流大语言模型横向对比",
+    "desc": "Claude、GPT-4、Gemini、通义千问、文心一言...各模型特点、适用场景、性价比分析。",
+    "date": "2026-05-18",
+    "tags": ["AI", "LLM", "GPT", "Claude"],
+    "category": "ai"
+  },
+  {
+    "id": "ai-agent-practice",
+    "title": "AI Agent 实战入门",
+    "desc": "从零搭建一个简单的 AI Agent，调用大模型 API + 工具调用 + 记忆系统。",
+    "date": "2026-05-18",
+    "tags": ["AI", "Agent", "LangChain"],
+    "category": "ai"
+  },
+  {
+    "id": "ai-prompt-engineering",
+    "title": "Prompt 工程最佳实践",
+    "desc": "如何写出高效的提示词？Few-shot、CoT、角色扮演等技巧总结。",
+    "date": "2026-05-18",
+    "tags": ["AI", "Prompt", "技巧"],
+    "category": "ai"
+  },
+  {
+    "id": "daily-first-post",
+    "title": "开博第一天",
+    "desc": "终于有自己的博客了，以后会在这里记录学习笔记、技术心得，期待和大家一起交流！",
+    "date": "2026-05-16",
+    "tags": ["随笔"],
+    "category": "life"
   }
 ]
