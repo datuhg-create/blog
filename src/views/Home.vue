@@ -4,7 +4,7 @@
 
     <header class="site-header">
       <h1 class="site-title">📝 我的博客</h1>
-      <p class="site-desc">.NET 全栈 · Vue 3 · 日常记录</p>
+      <p class="site-desc">.NET 全栈 · Vue 3 · 日常记录11</p>
       <div class="search-box">
         <el-input
           v-model="searchText"
