@@ -3,8 +3,8 @@
     <div class="bg-decoration"></div>
 
     <header class="site-header">
-      <h1 class="site-title">📝 我的博客</h1>
-      <p class="site-desc">.NET 全栈 · Vue 3 · 日常记录11</p>
+      <h1 class="site-title">📝 我的博客11</h1>
+      <p class="site-desc">.NET 全栈 · Vue 3 · 日常记录4443</p>
       <div class="search-box">
         <el-input
           v-model="searchText"
